@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the state drop-down Spinner -->
+    <string-array name="array_state_options">
+        <item>@string/unknown</item>
+        <item>@string/Alabama</item>
+        <item>@string/Alaska</item>
+        <item>@string/Arizona</item>
+        <item>@string/Arkansas</item>
+        <item>@string/California</item>
+        <item>@string/Colorado</item>
+        <item>@string/Connecticut</item>
+        <item>@string/Deleware</item>
+        <item>@string/Florida</item>
+        <item>@string/Georgia</item>
+        <item>@string/Hawaii</item>
+        <item>@string/Idaho</item>
+        <item>@string/Illinois</item>
+        <item>@string/Indiana</item>
+        <item>@string/Iowa</item>
+        <item>@string/Kansas</item>
+        <item>@string/Kentucky</item>
+        <item>@string/Louisiana</item>
+        <item>@string/Maine</item>
+        <item>@string/Maryland</item>
+        <item>@string/Massachusetts</item>
+        <item>@string/Michigan</item>
+        <item>@string/Minnesota</item>
+        <item>@string/Mississippi</item>
+        <item>@string/Missouri</item>
+        <item>@string/Montana</item>
+        <item>@string/Nebraska</item>
+        <item>@string/Nevada</item>
+        <item>@string/Nebraska</item>
+        <item>@string/New_Hampshire</item>
+        <item>@string/New_Jersey</item>
+        <item>@string/New_Mexico</item>
+        <item>@string/New_York</item>
+        <item>@string/North_Carolina</item>
+        <item>@string/North_Dakota</item>
+        <item>@string/Ohio</item>
+        <item>@string/Oklahoma</item>
+        <item>@string/Oregon</item>
+        <item>@string/Rhode_Island</item>
+        <item>@string/South_Carolina</item>
+        <item>@string/South_Dakota</item>
+        <item>@string/Tennessee</item>
+        <item>@string/Texas</item>
+        <item>@string/Utah</item>
+        <item>@string/Vermont</item>
+        <item>@string/Virginia</item>
+        <item>@string/Washington</item>
+        <item>@string/West_Virginia</item>
+        <item>@string/Wisconsin</item>
+        <item>@string/Wyoming</item>
+    </string-array>
+</resources>

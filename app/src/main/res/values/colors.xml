@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTextMain">#000000</color>
+    <color name="colorTextHint">#9E9E9E</color>
+    <color name="colorTextItemEdit">#FFFFFF</color>
+    <color name="colorTextItemEditInfo">#01579B</color>
+
+    <color name="colorBackgroundItemEdit">#0091EA</color>
+    <color name="colorBackgroundMandatoryEditTextBox">#FFFFFF</color>
+    <color name="colorBackgroundAdditionalEditTextBox">#B3E5FC</color>
+    <color name="colorBackgroundPhoto">#BDBDBD</color>
+    <color name="colorTintPhoto">#E0E0E0</color>
+</resources>

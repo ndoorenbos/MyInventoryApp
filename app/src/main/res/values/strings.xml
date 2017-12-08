@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">My Inventory</string>
+    <string name="item_editor_activity_title_new_product">Add a Product</string>
+    <string name="item_editor_activity_title_existing_pet">Edit Product</string>
+
+    <!-- Exception messages -->
+    <string name="unknown_uri">Cannot query unknown URI </string>
+    <string name="unsupported_uri_insert">Insertion is not supported for </string>
+    <string name="unsupported_uri_update">Update is not supported for </string>
+    <string name="unsupported_uri_delete">Deletion is not supported for </string>
+    <string name="row_insert_failed">Failed to insert row for </string>
+    <string name="needs_name">Product requires a name</string>
+    <string name="needs_quantity">Product requires a valid quantity</string>
+    <string name="needs_price">Product requires a valid price</string>
+    <string name="needs_state">State must be either 0 (unknown) or a
+        number 1-50 (alphabetically listed state)</string>
+    <string name="unknown_uri_match">Unknown URI %1$d with match %1$d</string>
+
+    <!-- Strings for Dialog messages -->
+    <string name="delete_all_dialog_msg">Delete all products from the database?</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="delete_product_dialog_msg">Delete product from the database?</string>
+    <string name="edit_or_sell">Do you wish to Edit or Track a Sale of this item?</string>
+    <string name="sell_quantity">1</string>
+    <string name="quantity_to_sell">Quantity to sell:</string>
+    <string name="quantity_to_add">Quantity to add:</string>
+    <string name="choose_order_method">How would you like to order?</string>
+
+    <!-- Strings for UI information -->
+    <string name="empty_database">Inventory database is empty!</string>
+    <string name="empty_how_to_add">To add inventory items click on the plus button in the menu
+        bar</string>
+    <string name="header_price">Price</string>
+    <string name="header_quantity">Quantity</string>
+    <string name="delete_all_confirm">All products deleted</string>
+    <string name="delete_all_error">Error with deleting products from database</string>
+    <string name="product_insert_failed">Error with saving the product to the database</string>
+    <string name="product_insert_success">Product successfully saved</string>
+    <string name="product_update_failed">Error with updating the product in the database</string>
+    <string name="product_update_success">Product successfully updated</string>
+    <string name="product_delete_failure">Error with deleting the product from database</string>
+    <string name="product_delete_success">Product successfully deleted</string>
+    <string name="no_camera">Cannot find a camera on this device</string>
+    <string name="no_products_to_sell">There are no products to sell!</string>
+    <string name="phone_not_valid">The phone number used is not valid, verify number</string>
+
+    <!-- Strings for buttons/menus [CHAR LIMIT 20] -->
+    <string name="sell">Sell</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_item">Add Item</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="order_received">Order Received</string>
+    <string name="order">Order</string>
+    <string name="next">Next</string>
+    <string name="by_email">E-mail</string>
+    <string name="by_phone">Phone</string>
+
+    <!-- Strings for the item editor -->
+    <string name="product_information">Product Information</string>
+    <string name="name">Name</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_supplier_name">Company Name</string>
+    <string name="product_code">Code</string>
+    <string name="hint_product_code">Enter system code</string>
+    <string name="product_photo">Photo</string>
+    <string name="product_add_photo">Add Photo</string>
+    <string name="quantity_in_stock">In-Stock</string>
+    <string name="hint_quantity_in_stock">0</string>
+    <string name="product_price">Sales Price</string>
+    <string name="hint_sales_price">0.00</string>
+    <string name="supplier_information">Supplier Information</string>
+    <string name="address">Address</string>
+    <string name="hint_address_1">Address Line 1</string>
+    <string name="hint_address_2">Address Line 2</string>
+    <string name="city_state">City, State</string>
+    <string name="hint_city">City</string>
+    <string name="zip_code">Zip-Code</string>
+    <string name="hint_zip_code">12345</string>
+    <string name="phone">Phone</string>
+    <string name="hint_phone">123-456-7890</string>
+    <string name="e_mail">E-mail</string>
+    <string name="hint_e_mail">ex. smith@mailservice.com</string>
+    <string name="website">Website</string>
+    <string name="hint_website">http://</string>
+
+    <!-- Strings for ordering -->
+    <string name="order_message">I would like to place an order for the following:</string>
+    <string name="order_catalog"> - Catalog# </string>
+    <string name="order_quantity">, Qty = </string>
+    <string name="order_subject">Order Request</string>
+
+    <!-- Strings for the state code Spinner -->
+    <string name="unknown">Unknown</string>
+    <string name="Alabama">AL</string>
+    <string name="Alaska">AK</string>
+    <string name="Arizona">AZ</string>
+    <string name="Arkansas">AR</string>
+    <string name="California">CA</string>
+    <string name="Colorado">CO</string>
+    <string name="Connecticut">CT</string>
+    <string name="Deleware">DE</string>
+    <string name="Florida">FL</string>
+    <string name="Georgia">GA</string>
+    <string name="Hawaii">HI</string>
+    <string name="Idaho">ID</string>
+    <string name="Illinois">IL</string>
+    <string name="Indiana">IN</string>
+    <string name="Iowa">IA</string>
+    <string name="Kansas">KS</string>
+    <string name="Kentucky">KY</string>
+    <string name="Louisiana">LA</string>
+    <string name="Maine">ME</string>
+    <string name="Maryland">MD</string>
+    <string name="Massachusetts">MA</string>
+    <string name="Michigan">MI</string>
+    <string name="Minnesota">MN</string>
+    <string name="Mississippi">MS</string>
+    <string name="Missouri">MO</string>
+    <string name="Montana">MT</string>
+    <string name="Nebraska">NE</string>
+    <string name="Nevada">NV</string>
+    <string name="New_Hampshire">NH</string>
+    <string name="New_Jersey">NJ</string>
+    <string name="New_Mexico">NM</string>
+    <string name="New_York">NY</string>
+    <string name="North_Carolina">NC</string>
+    <string name="North_Dakota">ND</string>
+    <string name="Ohio">OH</string>
+    <string name="Oklahoma">OK</string>
+    <string name="Oregon">OR</string>
+    <string name="Pennsylvania">PA</string>
+    <string name="Rhode_Island">RI</string>
+    <string name="South_Carolina">SC</string>
+    <string name="South_Dakota">SD</string>
+    <string name="Tennessee">TN</string>
+    <string name="Texas">TX</string>
+    <string name="Utah">UT</string>
+    <string name="Vermont">VT</string>
+    <string name="Virginia">VA</string>
+    <string name="Washington">WA</string>
+    <string name="West_Virginia">WV</string>
+    <string name="Wisconsin">WI</string>
+    <string name="Wyoming">WY</string>
+
+</resources>

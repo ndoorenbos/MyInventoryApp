@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style of a mandatory EditText box -->
+    <style name="styleMandatoryEditTextBox">
+        <item name="android:background">@color/colorBackgroundMandatoryEditTextBox</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:editTextColor">@color/colorTextItemEditInfo</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Style of an additional info EditText box -->
+    <style name="styleAdditionalEditTextBox">
+        <item name="android:background">@color/colorBackgroundAdditionalEditTextBox</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:editTextColor">@color/colorTextItemEditInfo</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
